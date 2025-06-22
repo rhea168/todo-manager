@@ -88,3 +88,49 @@ h1 {
   cursor: pointer;
   font-size: 1.1rem;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+input, textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+button {
+  align-self: flex-start;
+  padding: 0.5rem 1rem;
+}
+.post {
+  background: white;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-left: 4px solid #007acc;
+}
+.post h2 {
+  margin: 0;
+}
+.post p {
+  white-space: pre-wrap;
+}
+.actions {
+  margin-top: 0.5rem;
+}
+@media (max-width: 600px) {
+  .container {
+    padding: 0.5rem;
+  }
+}
